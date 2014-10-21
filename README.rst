@@ -42,8 +42,8 @@ TODO
 ====
 
 - generate `Actions` in a better way (currently assumes you've parked your boto
-library in the same place that I have because I was too impatient to dig through
-the API to see where this data was exposed)
+  library in the same place that I have because I was too impatient to dig through
+  the API to see where this data was exposed)
 
 - Allow `PolicyStatement` constructor to take boto buckets, queues, etc as `Resource`
-and autogenerate the ARN
+  and autogenerate the ARN
